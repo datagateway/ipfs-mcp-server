@@ -1,0 +1,17 @@
+[project]
+name = "ipfs-mcp-server"
+version = "0.1.0"
+description = "MCP server that exposes IPFS content as resources"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=0.9.1",
+    "httpx>=0.25.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+ipfs-mcp-server = "ipfs_mcp_server:main"
