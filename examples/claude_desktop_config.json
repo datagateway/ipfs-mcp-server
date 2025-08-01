@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ipfs": {
+      "command": "uv",
+      "args": ["run", "ipfs-mcp-server"],
+      "cwd": "/path/to/ipfs-mcp-server"
+    }
+  }
+}

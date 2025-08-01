@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ipfs": {
+      "command": "python",
+      "args": ["-m", "ipfs_mcp_server"],
+      "cwd": "/path/to/ipfs-mcp-server",
+      "env": {
+        "VIRTUAL_ENV": "/path/to/ipfs-mcp-server/venv",
+        "PATH": "/path/to/ipfs-mcp-server/venv/bin:$PATH"
+      }
+    }
+  }
+}
